@@ -53,6 +53,19 @@ body {
 
 .teams {
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .25rem;
+}
+
+.pill {
+    background-color: var(--pill-colour);
+    border: 1px solid var(--pill-border);
+    margin: .125rem 0;
+    padding: .1rem .5rem;
+    border-radius: 9999px;
+    color: black;
 }
 
 a {

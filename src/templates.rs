@@ -99,12 +99,10 @@ pub fn person(person: &Person, teams: &HashMap<String, Team>) -> PreEscaped<Stri
 fn person_teams(person_teams: &[String], teams: &HashMap<String, Team>) -> PreEscaped<String> {
     maud::html! {
         .teams {
-            @for (i, team) in person_teams.iter().enumerate() {
+            @for team in person_teams {
                 @if let Some(team) = teams.get(team) {
-                    @if i != 0 {
-                        ", "
-                    }
-                    span style=[team.colour.clone().map(|c| format!("color: {c};"))] {
+                    @let style = team.colour.as_ref().map(|c| format!("--pill-colour: {c};")).unwrap_or_else(|| "--pill-border: #888;".to_owned());
+                    span.pill style=(style) {
                         (team.name)
                     }
                 }
