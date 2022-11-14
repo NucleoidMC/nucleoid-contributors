@@ -1,0 +1,7 @@
+name = "sockfriends"
+groups = [
+    "building",
+]
+
+[socials]
+minecraft = "600c018bc8fc44d5abdb52879de2cd41"

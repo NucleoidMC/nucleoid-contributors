@@ -1,0 +1,7 @@
+name = "IamSeahawk"
+groups = [
+    "code",
+]
+
+[socials]
+minecraft = "IamSeahawk"

@@ -1,0 +1,7 @@
+name = "HarvestJones"
+groups = [
+    "building",
+]
+
+[socials]
+minecraft = "c9bfdea004ca49888ad20eab3ded6c40"
