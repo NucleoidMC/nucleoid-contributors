@@ -1,0 +1,8 @@
+name = "komerish"
+groups = [
+    "building",
+    "translations",
+]
+
+[socials]
+minecraft = "6f6d39b3c21440ffa6e4606bc8d19d79"

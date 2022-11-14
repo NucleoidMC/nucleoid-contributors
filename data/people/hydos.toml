@@ -1,0 +1,7 @@
+name = "hydos"
+groups = [
+    "code",
+]
+
+[socials]
+minecraft = "3c439ef2618241aea1f3b4d8def57821"

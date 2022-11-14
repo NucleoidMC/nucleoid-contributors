@@ -1,0 +1,7 @@
+name = "Fish"
+groups = [
+    "building",
+]
+
+[socials]
+minecraft = "ef21121ec58f49fb9125529e0945c347"

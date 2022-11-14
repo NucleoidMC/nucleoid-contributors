@@ -1,0 +1,7 @@
+name = "Proddy"
+groups = [
+    "building",
+]
+
+[socials]
+minecraft = "82ed56d4c36d48358a6adfa9c9eb4b53"

@@ -1,0 +1,9 @@
+name = "Gegy"
+groups = [
+    "administrator",
+    "code",
+    "building",
+]
+
+[socials]
+minecraft = "c3ed4d52fb4f4964ba1b9cda2453741e"

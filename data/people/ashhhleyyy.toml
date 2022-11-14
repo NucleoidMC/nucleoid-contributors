@@ -1,0 +1,32 @@
+# Name displayed at the top of the card
+name = "Ashhhleyyy"
+
+# Displayed on card
+pronouns = "she/they"
+
+# Group membership
+groups = [
+    "core",
+    "moderator",
+    "code",
+]
+
+# Displayed on card
+bio = "Has only broken the server a few times."
+
+avatar = "https://cdn.ashhhleyyy.dev/file/ashhhleyyy-assets/images/pfp.webp"
+
+[socials]
+github = "ashhhleyyy"
+# ID: maybe used for role-sync later
+# Display: shown as-is
+discord = { id = "828168927762841601", display = "Ash." }
+# Required - used for role sync later + used as fallback for avatar if not specified
+minecraft = "5ad3ab57b55646359ba99a9a0568965a"
+
+# Used as link
+fediverse = "https://fedi.ashhhleyyy.dev/ash"
+# Used as link
+website = "https://ashhhleyyy.dev"
+# Converted to link
+twitter = "AshhhleyyyB"

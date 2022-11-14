@@ -1,0 +1,9 @@
+name = "moehreag"
+groups = [
+    "code",
+    "building",
+    "translations",
+]
+
+[socials]
+minecraft = "6392bacb8b00436682b33ddb134e83ac"

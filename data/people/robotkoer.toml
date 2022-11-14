@@ -1,0 +1,7 @@
+name = "robotkoer"
+groups = [
+    "translations",
+]
+
+[socials]
+minecraft = "581a3f25db2c4e52982362e9e4730daa"

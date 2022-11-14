@@ -1,0 +1,11 @@
+name = "SuperCoder"
+groups = [
+    "administrator",
+    "core",
+    "moderator",
+    "code",
+    "building",
+]
+
+[socials]
+minecraft = "e60d6f03ff174984a801681e5be8dac3"

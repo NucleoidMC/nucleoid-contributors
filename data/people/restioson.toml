@@ -1,0 +1,11 @@
+name = "Restioson"
+groups = [
+    "administrator",
+    "core",
+    "moderator",
+    "code",
+    "building",
+]
+
+[socials]
+minecraft = "89409ca75d94461890060f264b7dc804"

@@ -1,0 +1,8 @@
+name = "haykam"
+groups = [
+    "code",
+    "building",
+]
+
+[socials]
+minecraft = "c705fc7d09624d1e905bb83d81d9b4ec"

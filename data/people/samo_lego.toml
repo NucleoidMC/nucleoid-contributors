@@ -1,0 +1,7 @@
+name = "samo_lego"
+groups = [
+    "code",
+]
+
+[socials]
+minecraft = "950a987d0d40498abe98dd17571e5e2f"

@@ -1,0 +1,11 @@
+name = "LambdAurora"
+groups = [
+    "administrator",
+    "core",
+    "moderator",
+    "code",
+    "building",
+]
+
+[socials]
+minecraft = "aa7e0904a404417b944d909b994f3abb"

@@ -1,0 +1,7 @@
+name = "Marth_Daul"
+groups = [
+    "building",
+]
+
+[socials]
+minecraft = "9e3dda3eb9e34702ba48e243d7d8ad0f"

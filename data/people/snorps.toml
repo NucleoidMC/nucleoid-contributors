@@ -1,0 +1,7 @@
+name = "Snorps"
+groups = [
+    "building",
+]
+
+[socials]
+minecraft = "222c1122f06842f185d4d4320357b40c"

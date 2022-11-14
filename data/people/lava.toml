@@ -1,0 +1,7 @@
+name = "lava"
+groups = [
+    "art",
+]
+
+[socials]
+minecraft = "a543ea101b4641cf9777f6aaa684a689"

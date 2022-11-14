@@ -1,0 +1,8 @@
+name = "SmellyModder"
+groups = [
+    "code",
+    "building",
+]
+
+[socials]
+minecraft = "b8b859a52dbc47438f7a4768f6692606"

@@ -1,0 +1,8 @@
+name = "Redblueflame"
+groups = [
+    "translations",
+    "code",
+]
+
+[socials]
+minecraft = "fdbbc670dac646139165960cc2b34647"

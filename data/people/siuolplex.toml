@@ -1,0 +1,8 @@
+name = "Siuolplex"
+groups = [
+    "building",
+    "code",
+]
+
+[socials]
+minecraft = "07cb3dfdee1d4ecfb5b5f70d317a82eb"

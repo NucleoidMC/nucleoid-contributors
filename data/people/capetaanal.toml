@@ -1,0 +1,7 @@
+name = "capetaanal"
+groups = [
+    "translations"
+]
+
+[socials]
+minecraft = "7c92bb7e8d8d45f48c1e0126127464a7"

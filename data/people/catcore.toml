@@ -1,0 +1,7 @@
+name = "Cat Core"
+groups = [
+    "code",
+]
+
+[socials]
+minecraft = "5bb676efecee4258ae1f53e163839585"

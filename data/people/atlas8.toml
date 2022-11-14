@@ -1,0 +1,7 @@
+name = "atlas8_"
+groups = [
+    "building",
+]
+
+[socials]
+minecraft = "13c7ac0aeb404894b48cf29a10c80bd3"

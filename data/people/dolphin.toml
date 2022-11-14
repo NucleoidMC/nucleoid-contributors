@@ -1,0 +1,7 @@
+name = "Dolphin 2.0"
+groups = [
+    "code",
+]
+
+[socials]
+minecraft = "e5dfe1ee328d4af886ce7095f3081fb5"

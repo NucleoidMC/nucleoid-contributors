@@ -1,0 +1,10 @@
+name = "Shock Micro"
+groups = [
+    "administrator",
+    "core",
+    "moderator",
+    "building",
+]
+
+[socials]
+minecraft = "13c89fae816e438c94ab3cd4bc4f55b4"

@@ -1,0 +1,9 @@
+name = "Napero"
+groups = [
+    "building",
+    "code",
+    "translations",
+]
+
+[socials]
+minecraft = "0529de7877954382ba3c350fe3159cc3"

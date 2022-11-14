@@ -1,0 +1,7 @@
+name = "Raqtor"
+groups = [
+    "building",
+]
+
+[socials]
+minecraft = "0c2e0595d8d04997be453bde2bd042c2"

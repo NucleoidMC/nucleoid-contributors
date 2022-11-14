@@ -1,0 +1,7 @@
+name = "Geefire"
+groups = [
+    "building",
+]
+
+[socials]
+minecraft = "c40d10d3f2ee47a692ec63b53b6fdf01"

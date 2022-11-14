@@ -1,0 +1,10 @@
+name = "mounderfod"
+groups = [
+    "core",
+    "moderator",
+    "code",
+    "building",
+]
+
+[socials]
+minecraft = "04b087925f0e4ba5bf6ddba7bfe240d9"

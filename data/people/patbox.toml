@@ -1,0 +1,11 @@
+name = "Patbox"
+groups = [
+    "administrator",
+    "core",
+    "moderator",
+    "code",
+    "building",
+]
+
+[socials]
+minecraft = "f5a216d9d66049968d0fd49053677676"
