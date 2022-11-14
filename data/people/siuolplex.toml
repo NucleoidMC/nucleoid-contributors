@@ -1,8 +1,15 @@
 name = "Siuolplex"
+pronouns = "he/him"
+
 groups = [
     "building",
     "code",
 ]
 
+bio = "Loop-de-Loop champion, Modder"
+
 [socials]
 minecraft = "07cb3dfdee1d4ecfb5b5f70d317a82eb"
+github = "siuolthepic"
+discord = { id = "187018366907711498", display = "'Siuol' Appeared" }
+twitter = "Siuolplex"
