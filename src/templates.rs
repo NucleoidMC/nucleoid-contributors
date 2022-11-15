@@ -47,51 +47,53 @@ pub fn person(person: &Person, teams: &HashMap<String, Team>) -> PreEscaped<Stri
                 }
             }
 
-            .notes {
-                (person_teams(&person.groups, teams))
-
-                @if let Some(discord) = &person.socials.discord {
-                    p.discord {
-                        (icons::DISCORD)
-                        " @"
-                        (discord.display)
+            .card-content {
+                .notes {
+                    @if let Some(discord) = &person.socials.discord {
+                        p.discord {
+                            (icons::DISCORD)
+                            " @"
+                            (discord.display)
+                        }
                     }
-                }
 
-                @if let Some(github) = &person.socials.github {
-                    p.github {
-                        a href=(format!("https://github.com/{github}")) target="_blank" {
-                            (icons::GITHUB)
-                            " "
-                            (github)
+                    @if let Some(github) = &person.socials.github {
+                        p.github {
+                            a href=(format!("https://github.com/{github}")) target="_blank" {
+                                (icons::GITHUB)
+                                " "
+                                (github)
+                            }
                         }
                     }
                 }
-            }
 
-            .socials {
-                @if let Some(website) = &person.socials.website {
-                    a href=(website) {
-                        (icons::LINK)
+                .socials {
+                    @if let Some(website) = &person.socials.website {
+                        a href=(website) {
+                            (icons::LINK)
+                        }
+                    }
+
+                    @if let Some(fediverse) = &person.socials.fediverse {
+                        a href=(fediverse) {
+                            (icons::MASTODON)
+                        }
+                    }
+
+                    @if let Some(twitter) = &person.socials.twitter {
+                        a href=(format!("https://twitter.com/@{twitter}")) {
+                            (icons::TWITTER)
+                        }
                     }
                 }
 
-                @if let Some(fediverse) = &person.socials.fediverse {
-                    a href=(fediverse) {
-                        (icons::MASTODON)
-                    }
-                }
-
-                @if let Some(twitter) = &person.socials.twitter {
-                    a href=(format!("https://twitter.com/@{twitter}")) {
-                        (icons::TWITTER)
-                    }
+                @if let Some(bio) = &person.bio {
+                    p.bio { (bio) }
                 }
             }
 
-            @if let Some(bio) = &person.bio {
-                p.bio { (bio) }
-            }
+            (person_teams(&person.groups, teams))
         }
     }
 }
