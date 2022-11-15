@@ -6,6 +6,7 @@ groups = [
 ]
 
 bio = "British ‘person’"
+avatar = "https://cdn.discordapp.com/attachments/1041816509925826650/1042048940343824465/IMG_0356.png"
 
 [socials]
 minecraft = "dca7cb177f1349c89ab4a5267f8f53e5"
