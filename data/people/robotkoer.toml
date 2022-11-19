@@ -2,6 +2,7 @@ name = "robotkoer"
 groups = [
     "translations",
 ]
-
+bio = "Translates Nucleoid and Minecraft"
 [socials]
+discord = { id = "406753690276331533", display = "robotkoer" }
 minecraft = "581a3f25db2c4e52982362e9e4730daa"
