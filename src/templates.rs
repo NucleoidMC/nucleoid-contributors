@@ -9,13 +9,25 @@ fn styles() -> PreEscaped<String> {
     PreEscaped(STYLE.replace("\n    ", "").replace("\n", ""))
 }
 
-pub fn test_page(people: Vec<Person>, teams: &HashMap<String, Team>) -> PreEscaped<String> {
+pub fn test_page(people: &[Person], teams: &HashMap<String, Team>) -> PreEscaped<String> {
     maud::html! {
         (DOCTYPE)
         head {
             meta charset="utf-8";
             style {
                 (styles())
+            }
+
+            style {
+                (PreEscaped("body {
+                    font-family: 'Noto Sans', Roboto, sans-serif;
+                    box-sizing: border-box;
+                    --card-border-colour: black;
+                }
+
+                * {
+                    box-sizing: inherit;
+                }"))
             }
         }
         body {
@@ -24,10 +36,21 @@ pub fn test_page(people: Vec<Person>, teams: &HashMap<String, Team>) -> PreEscap
                 h2 { "Contributors" }
 
                 .contributors {
-                    @for p in &people {
+                    @for p in people {
                         (person(p, teams))
                     }
                 }
+            }
+        }
+    }
+}
+
+pub fn widget(people: &[Person], teams: &HashMap<String, Team>) -> PreEscaped<String> {
+    maud::html! {
+        .contributors {
+            style { (styles()) }
+            @for p in people {
+                (person(p, teams))
             }
         }
     }

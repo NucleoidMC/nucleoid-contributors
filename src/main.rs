@@ -20,8 +20,17 @@ fn main() -> Result<()> {
         }
     }
 
-    let html = templates::test_page(people, &teams);
     fs::create_dir_all("build/")?;
-    fs::write("build/index.html", html.0)?;
+    
+    {
+        let html = templates::test_page(&people, &teams);
+        fs::write("build/index.html", html.0)?;
+    }
+
+    {
+        let html = templates::widget(&people, &teams);
+        fs::write("build/widget.html", html.0)?;
+    }
+
     Ok(())
 }
