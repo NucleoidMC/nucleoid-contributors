@@ -6,6 +6,7 @@ pronouns = "she/they"
 
 # Group membership
 groups = [
+    "administrator",
     "core",
     "moderator",
     "code",
