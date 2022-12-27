@@ -1,9 +1,20 @@
 name = "Gegy"
+pronouns = "she/her"
+
 groups = [
     "administrator",
     "code",
     "building",
 ]
 
+bio = "Fears her unknowing contribution to the inevitable Tiny Potato uprising."
+avatar = "https://gegy.dev/assets/icon.png"
+
 [socials]
+github = "Gegy"
+discord = { id = "103781502742962176", display = "Gegy" }
 minecraft = "c3ed4d52fb4f4964ba1b9cda2453741e"
+
+fediverse = "https://mastodon.gamedev.place/gegy"
+website = "https://gegy.dev"
+twitter = "gegybeans"
