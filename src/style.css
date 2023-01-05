@@ -66,18 +66,18 @@
     color: black;
 }
 
-a {
+.contributors a {
     color: #2291e6;
     text-decoration: none;
     font-weight: bold;
     transition: filter ease 200ms;
 }
 
-a:hover {
+.contributors a:hover {
     filter: brightness(.8);
 }
 
-a .icon {
+.contributors a .icon {
     fill: #2291e6 !important;
 }
 
