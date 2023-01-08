@@ -1,4 +1,5 @@
 name = "Patbox"
+pronouns = "he/him"
 groups = [
     "administrator",
     "core",
@@ -7,5 +8,13 @@ groups = [
     "building",
 ]
 
+bio = "Trying to make server side ecosystem better one mod at the time!"
+
 [socials]
+github = "Patbox"
+discord = { id = "323879997485875210", display = "Patbox" }
 minecraft = "f5a216d9d66049968d0fd49053677676"
+
+fediverse = "https://mastodon.online/@Patbox"
+website = "https://pb4.eu"
+twitter = "TruePatbox"
