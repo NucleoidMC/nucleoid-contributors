@@ -1,6 +1,7 @@
 name = "komerish"
 groups = [
     "building",
+    "code",
     "translations",
 ]
 
