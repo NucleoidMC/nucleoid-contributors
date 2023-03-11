@@ -1,0 +1,708 @@
+{
+  "people": {
+    "antek324980": {
+      "name": "antek324980",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "f1bade07a7764245ae92b749078c99e3"
+      }
+    },
+    "ashhhleyyy": {
+      "name": "Ashhhleyyy",
+      "pronouns": "she/they",
+      "groups": [
+        "administrator",
+        "core",
+        "moderator",
+        "code"
+      ],
+      "bio": "Sysadmin nerd, responsible for fixing (and sometimes breaking) the server.",
+      "avatar": "https://cdn.ashhhleyyy.dev/file/ashhhleyyy-assets/images/pfp.webp",
+      "socials": {
+        "github": "ashhhleyyy",
+        "discord": {
+          "id": "828168927762841601",
+          "display": "Ash."
+        },
+        "minecraft": "5ad3ab57b55646359ba99a9a0568965a",
+        "fediverse": "https://fedi.ashhhleyyy.dev/ash",
+        "website": "https://ashhhleyyy.dev",
+        "twitter": "AshhhleyyyB"
+      }
+    },
+    "atlas8": {
+      "name": "atlas8_",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "13c7ac0aeb404894b48cf29a10c80bd3"
+      }
+    },
+    "bazels": {
+      "name": "Bazels_",
+      "pronouns": "he/him",
+      "groups": [
+        "building"
+      ],
+      "bio": "British ‘person’",
+      "avatar": "https://cdn.discordapp.com/attachments/1041816509925826650/1042048940343824465/IMG_0356.png",
+      "socials": {
+        "discord": {
+          "id": "594569438054055951",
+          "display": "Beanz"
+        },
+        "minecraft": "dca7cb177f1349c89ab4a5267f8f53e5"
+      }
+    },
+    "capetaanal": {
+      "name": "capetaanal",
+      "groups": [
+        "translations"
+      ],
+      "socials": {
+        "minecraft": "7c92bb7e8d8d45f48c1e0126127464a7"
+      }
+    },
+    "catcore": {
+      "name": "Cat Core",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "5bb676efecee4258ae1f53e163839585"
+      }
+    },
+    "devin": {
+      "name": "Devin",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "62db95c673da43018623cb5a796da267"
+      }
+    },
+    "dolphin": {
+      "name": "Dolphin 2.0",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "e5dfe1ee328d4af886ce7095f3081fb5"
+      }
+    },
+    "duacki": {
+      "name": "duacki",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "7a67eca3fb054977ade30b80e81be479"
+      }
+    },
+    "ecobuilder13": {
+      "name": "EcoBuilder13",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "7e9836ef53cb4450aa26b1386de92d0e"
+      }
+    },
+    "ella": {
+      "name": "ella",
+      "groups": [
+        "translations"
+      ],
+      "socials": {
+        "minecraft": "1228311667704193a92fc26a31a3455d"
+      }
+    },
+    "eterdelta": {
+      "name": "EterDelta",
+      "groups": [
+        "art"
+      ],
+      "socials": {
+        "minecraft": "1db024ef412647bf8aea71317f7a1b7e"
+      }
+    },
+    "fish": {
+      "name": "LordFishSticks",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "ef21121ec58f49fb9125529e0945c347"
+      }
+    },
+    "foundationgames": {
+      "name": "FoundationGames",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "d20a3626280f49f0b17100257fd8faa3"
+      }
+    },
+    "geefire": {
+      "name": "Geefire",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "c40d10d3f2ee47a692ec63b53b6fdf01"
+      }
+    },
+    "gegy": {
+      "name": "Gegy",
+      "pronouns": "she/her",
+      "groups": [
+        "administrator",
+        "code",
+        "building"
+      ],
+      "bio": "Fears her unknowing contribution to the inevitable Tiny Potato uprising.",
+      "avatar": "https://gegy.dev/assets/icon.png",
+      "socials": {
+        "github": "Gegy",
+        "discord": {
+          "id": "103781502742962176",
+          "display": "Gegy"
+        },
+        "minecraft": "c3ed4d52fb4f4964ba1b9cda2453741e",
+        "fediverse": "https://mastodon.gamedev.place/gegy",
+        "website": "https://gegy.dev",
+        "twitter": "gegybeans"
+      }
+    },
+    "gimli_007": {
+      "name": "Gimli_007",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "76b9f6d9d392497a8e81f41f715362a7"
+      }
+    },
+    "harvestjones": {
+      "name": "HarvestJones",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "c9bfdea004ca49888ad20eab3ded6c40"
+      }
+    },
+    "haykam": {
+      "name": "haykam",
+      "groups": [
+        "code",
+        "building"
+      ],
+      "socials": {
+        "minecraft": "c705fc7d09624d1e905bb83d81d9b4ec"
+      }
+    },
+    "hugman": {
+      "name": "Hugman",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "c789cee4c9fb4c1b8a58fa64dff0034f"
+      }
+    },
+    "hydos": {
+      "name": "hydos",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "3c439ef2618241aea1f3b4d8def57821"
+      }
+    },
+    "iamseahawk": {
+      "name": "IamSeahawk",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "63e167f5026b49499a12727b8b1ff291"
+      }
+    },
+    "insertmeme": {
+      "name": "insert.meme23",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "3744c0a9fb8541b78066b78ca1dc4bc6"
+      }
+    },
+    "komerish": {
+      "name": "komerish",
+      "groups": [
+        "building",
+        "code",
+        "translations"
+      ],
+      "socials": {
+        "minecraft": "6f6d39b3c21440ffa6e4606bc8d19d79"
+      }
+    },
+    "lambdaurora": {
+      "name": "LambdAurora",
+      "groups": [
+        "administrator",
+        "core",
+        "moderator",
+        "code",
+        "building"
+      ],
+      "socials": {
+        "minecraft": "aa7e0904a404417b944d909b994f3abb"
+      }
+    },
+    "lava": {
+      "name": "lava",
+      "groups": [
+        "art"
+      ],
+      "socials": {
+        "minecraft": "a543ea101b4641cf9777f6aaa684a689"
+      }
+    },
+    "mante": {
+      "name": "Mante",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "ada2d01e33d74e6b93cb18e50e03176f"
+      }
+    },
+    "marth_daul": {
+      "name": "Marth_Daul",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "9e3dda3eb9e34702ba48e243d7d8ad0f"
+      }
+    },
+    "moehreag": {
+      "name": "moehreag",
+      "groups": [
+        "code",
+        "building",
+        "translations"
+      ],
+      "socials": {
+        "minecraft": "6392bacb8b00436682b33ddb134e83ac"
+      }
+    },
+    "mounderfod": {
+      "name": "mounderfod",
+      "pronouns": "he/him",
+      "groups": [
+        "core",
+        "moderator",
+        "community",
+        "code",
+        "building"
+      ],
+      "bio": "(Mis)managing the community since 2021!",
+      "avatar": "https://i.imgur.com/y7LDVX9.png",
+      "socials": {
+        "github": "mounderfod",
+        "discord": {
+          "id": "936659483311104050",
+          "display": "mounderfod"
+        },
+        "minecraft": "04b087925f0e4ba5bf6ddba7bfe240d9",
+        "fediverse": "https://mastodon.social/@mounderfod"
+      }
+    },
+    "mrturtle": {
+      "name": "MrTurtle",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "9f84e819377b4e61b3393a9ad7214a91"
+      }
+    },
+    "napero": {
+      "name": "Napero",
+      "groups": [
+        "building",
+        "code",
+        "translations"
+      ],
+      "socials": {
+        "minecraft": "0529de7877954382ba3c350fe3159cc3"
+      }
+    },
+    "oliviathevampire": {
+      "name": "OliviaTheVampire",
+      "groups": [
+        "art"
+      ],
+      "socials": {
+        "minecraft": "b344687bec74479a95401aa8ccb13e92"
+      }
+    },
+    "patbox": {
+      "name": "Patbox",
+      "pronouns": "he/him",
+      "groups": [
+        "administrator",
+        "core",
+        "moderator",
+        "code",
+        "building"
+      ],
+      "bio": "Trying to make server side ecosystem better one mod at the time!",
+      "socials": {
+        "github": "Patbox",
+        "discord": {
+          "id": "323879997485875210",
+          "display": "Patbox"
+        },
+        "minecraft": "f5a216d9d66049968d0fd49053677676",
+        "fediverse": "https://mastodon.online/@Patbox",
+        "website": "https://pb4.eu",
+        "twitter": "TruePatbox"
+      }
+    },
+    "pigeon": {
+      "name": "Pigeon",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "8de99aaa4fb44c428c50adfeb9c7bde5"
+      }
+    },
+    "potatoboy": {
+      "name": "Potatoboy",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "76a438ae173240b598a60c1ac7482225"
+      }
+    },
+    "prettylittleprince": {
+      "name": "PrettyLittlePrince",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "bdb64d0c546d4087af2af4292518120c"
+      }
+    },
+    "proddy": {
+      "name": "Proddy",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "82ed56d4c36d48358a6adfa9c9eb4b53"
+      }
+    },
+    "prospector": {
+      "name": "Prospector",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "9927b75a89d94ff78bac58aaed08911a"
+      }
+    },
+    "qpcrummer": {
+      "name": "qpcrummer",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "add1b0bdf16545a68033f2dc898bb27f"
+      }
+    },
+    "ramidzkh": {
+      "name": "ramidzkh",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "836c8cc4bd0a45b3bced72bbb3af2d0d"
+      }
+    },
+    "raqtor": {
+      "name": "Raqtor",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "0c2e0595d8d04997be453bde2bd042c2"
+      }
+    },
+    "red_shadow3000": {
+      "name": "Red_Shadow3000",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "8479fc7da1df4cc189b863af367b7922"
+      }
+    },
+    "redblueflame": {
+      "name": "Redblueflame",
+      "groups": [
+        "translations",
+        "code"
+      ],
+      "socials": {
+        "minecraft": "fdbbc670dac646139165960cc2b34647"
+      }
+    },
+    "redstoneparadox": {
+      "name": "RedstoneParadox",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "f2d4f5123ee144288332fd84680bc920"
+      }
+    },
+    "restioson": {
+      "name": "Restioson",
+      "groups": [
+        "administrator",
+        "core",
+        "moderator",
+        "code",
+        "building"
+      ],
+      "socials": {
+        "minecraft": "89409ca75d94461890060f264b7dc804"
+      }
+    },
+    "robotkoer": {
+      "name": "robotkoer",
+      "groups": [
+        "translations"
+      ],
+      "bio": "Translates Nucleoid and Minecraft",
+      "socials": {
+        "discord": {
+          "id": "406753690276331533",
+          "display": "robotkoer"
+        },
+        "minecraft": "581a3f25db2c4e52982362e9e4730daa"
+      }
+    },
+    "rye": {
+      "name": "Rye",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "a00ad146adc0493aa2ba60f0e7e739b6"
+      }
+    },
+    "ryorama": {
+      "name": "Ryorama",
+      "groups": [
+        "contributor"
+      ],
+      "socials": {
+        "minecraft": "b28fa4df24114a0d9dcac64b2472675c"
+      }
+    },
+    "samo_lego": {
+      "name": "samo_lego",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "950a987d0d40498abe98dd17571e5e2f"
+      }
+    },
+    "shnupbups": {
+      "name": "Shnupbups",
+      "groups": [
+        "art"
+      ],
+      "socials": {
+        "minecraft": "b14df521191f4652b9fbef5a437cde08"
+      }
+    },
+    "shockmicro": {
+      "name": "Shock Micro",
+      "groups": [
+        "administrator",
+        "core",
+        "moderator",
+        "building"
+      ],
+      "socials": {
+        "minecraft": "13c89fae816e438c94ab3cd4bc4f55b4"
+      }
+    },
+    "siuolplex": {
+      "name": "Siuolplex",
+      "pronouns": "he/him",
+      "groups": [
+        "building",
+        "code"
+      ],
+      "bio": "Loop-de-Loop champion, Modder",
+      "socials": {
+        "github": "siuolthepic",
+        "discord": {
+          "id": "187018366907711498",
+          "display": "'Siuol' Appeared"
+        },
+        "minecraft": "07cb3dfdee1d4ecfb5b5f70d317a82eb",
+        "twitter": "Siuolplex"
+      }
+    },
+    "smellymodder": {
+      "name": "SmellyModder",
+      "groups": [
+        "code",
+        "building"
+      ],
+      "socials": {
+        "minecraft": "b8b859a52dbc47438f7a4768f6692606"
+      }
+    },
+    "snorps": {
+      "name": "Snorps",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "222c1122f06842f185d4d4320357b40c"
+      }
+    },
+    "sockfriends": {
+      "name": "sockfriends",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "600c018bc8fc44d5abdb52879de2cd41"
+      }
+    },
+    "sofffffeeeee": {
+      "name": "sofffffeeeee",
+      "pronouns": "she/her",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "8b0e1262217b4dd7a6003cd0b99ed86d"
+      }
+    },
+    "supercoder": {
+      "name": "SuperCoder",
+      "groups": [
+        "administrator",
+        "core",
+        "moderator",
+        "code",
+        "building"
+      ],
+      "socials": {
+        "minecraft": "e60d6f03ff174984a801681e5be8dac3"
+      }
+    },
+    "thebrokentwo": {
+      "name": "TheBrokenTwo",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "4a7864f9767844699df8039092b44f56"
+      }
+    },
+    "trunky": {
+      "name": "Trunky",
+      "groups": [
+        "community"
+      ],
+      "socials": {
+        "minecraft": "2f95ab87649a43e2bae871debf96b5b0"
+      }
+    },
+    "wes": {
+      "name": "Wes",
+      "groups": [
+        "building"
+      ],
+      "socials": {
+        "minecraft": "bfa1f77fc2674985ab928692a87fab7f"
+      }
+    },
+    "williambl": {
+      "name": "Will BL",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "9b0353720d8d45138bd59808d7f4a9b3"
+      }
+    }
+  },
+  "teams": {
+    "administrator": {
+      "name": "Administrator",
+      "colour": "#f587ff",
+      "weight": 100
+    },
+    "art": {
+      "name": "Art",
+      "colour": "#fff82b",
+      "weight": 50
+    },
+    "building": {
+      "name": "Building",
+      "colour": "#2ba7ff",
+      "weight": 50
+    },
+    "code": {
+      "name": "Programming",
+      "colour": "#6bff93",
+      "weight": 50
+    },
+    "community": {
+      "name": "Community",
+      "colour": "#fff82b",
+      "weight": 50
+    },
+    "contributor": {
+      "name": "Contributor",
+      "colour": "#fff82b",
+      "weight": 50
+    },
+    "core": {
+      "name": "Core team",
+      "colour": "#ffad0a",
+      "weight": 90
+    },
+    "moderator": {
+      "name": "Moderator",
+      "weight": 80
+    },
+    "translations": {
+      "name": "Translations",
+      "colour": "#fff82b",
+      "weight": 50
+    }
+  }
+}
