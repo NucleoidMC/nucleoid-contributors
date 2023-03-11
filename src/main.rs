@@ -5,7 +5,7 @@ use nucleoid_contributors::{models::{self, ContributorsData}, templates};
 
 fn main() -> Result<()> {
     let teams = models::load_teams()?;
-    let people = models::load_people(&teams)?;
+    let people = models::load_people()?;
 
     {
         let mut counts = HashMap::new();

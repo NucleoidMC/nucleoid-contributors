@@ -1,4 +1,4 @@
-use std::{fs, path::Path, borrow::Cow, collections::{HashMap, BTreeMap}};
+use std::{fs, path::Path, borrow::Cow, collections::{BTreeMap}};
 
 use color_eyre::{Result, eyre::eyre};
 use serde::{Deserialize, Serialize};
@@ -19,7 +19,7 @@ pub struct Person {
 impl Person {
     pub fn avatar(&self) -> Cow<str> {
         if let Some(avatar) = &self.avatar {
-            Cow::Borrowed(&avatar)
+            Cow::Borrowed(avatar)
         } else {
             Cow::Owned(format!("https://api.nucleoid.xyz/skin/face/128/{uuid}", uuid = self.socials.minecraft))
         }
@@ -64,7 +64,7 @@ pub struct ContributorsData {
 
 // Uses a BTreeMap to ensure consistent ordering of the keys in the output JSON,
 // and we don't care about the performance costs
-pub fn load_people(teams: &BTreeMap<String, Team>) -> Result<BTreeMap<String, Person>> {
+pub fn load_people() -> Result<BTreeMap<String, Person>> {
     let mut people = BTreeMap::new();
 
     for entry in fs::read_dir("data/people/")? {

@@ -5,8 +5,8 @@ use maud::{PreEscaped, DOCTYPE};
 use crate::models::{Person, Team};
 
 fn styles() -> PreEscaped<String> {
-    const STYLE: &'static str = include_str!("style.css");
-    PreEscaped(STYLE.replace("\n    ", "").replace("\n", ""))
+    const STYLE: &str = include_str!("style.css");
+    PreEscaped(STYLE.replace("\n    ", "").replace('\n', ""))
 }
 
 pub fn test_page(people: &[Person], teams: &BTreeMap<String, Team>) -> PreEscaped<String> {
