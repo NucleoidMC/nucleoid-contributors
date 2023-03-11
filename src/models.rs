@@ -1,14 +1,17 @@
-use std::{fs, path::Path, borrow::Cow, collections::HashMap};
+use std::{fs, path::Path, borrow::Cow, collections::{HashMap, BTreeMap}};
 
 use color_eyre::{Result, eyre::eyre};
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Deserialize)]
+#[derive(Clone, Deserialize, Serialize)]
 pub struct Person {
     pub name: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub pronouns: Option<String>,
     pub groups: Vec<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub bio: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub avatar: Option<String>,
     pub socials: Socials,
 }
@@ -23,52 +26,60 @@ impl Person {
     }
 }
 
-#[derive(Deserialize)]
+#[derive(Clone, Deserialize, Serialize)]
 pub struct Socials {
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub github: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub discord: Option<Discord>,
     pub minecraft: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub fediverse: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub website: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub twitter: Option<String>,
 }
 
-#[derive(Deserialize)]
+#[derive(Clone, Deserialize, Serialize)]
 pub struct Discord {
     pub id: String,
     pub display: String,
 }
 
-#[derive(Deserialize)]
+#[derive(Clone, Deserialize, Serialize)]
 pub struct Team {
     pub name: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pub colour: Option<String>,
     #[serde(default)]
     pub weight: i32,
 }
 
-pub fn load_people(teams: &HashMap<String, Team>) -> Result<Vec<Person>> {
-    let mut people = Vec::new();
+#[derive(Serialize)]
+pub struct ContributorsData {
+    pub people: BTreeMap<String, Person>,
+    pub teams: BTreeMap<String, Team>,
+}
+
+// Uses a BTreeMap to ensure consistent ordering of the keys in the output JSON,
+// and we don't care about the performance costs
+pub fn load_people(teams: &BTreeMap<String, Team>) -> Result<BTreeMap<String, Person>> {
+    let mut people = BTreeMap::new();
 
     for entry in fs::read_dir("data/people/")? {
         let entry = entry?;
         if entry.file_type()?.is_file() {
-            people.push(load_person(&entry.path())?);
+            let name = entry.path().file_stem().unwrap().to_str().expect("contributor file name to be valid UTF-8").to_owned();
+            people.insert(name, load_person(&entry.path())?);
         }
     }
-
-    people.sort_by_cached_key(|p| p.name.to_lowercase());
-    people.sort_by_cached_key(|p| p.groups.iter()
-        .filter_map(|t| teams.get(t))
-        .map(|t| -t.weight)
-        .min()
-    );
 
     Ok(people)
 }
 
-pub fn load_teams() -> Result<HashMap<String, Team>> {
-    let mut teams = HashMap::new();
+pub fn load_teams() -> Result<BTreeMap<String, Team>> {
+    let mut teams = BTreeMap::new();
 
     for entry in fs::read_dir("data/teams/")? {
         let entry = entry?;

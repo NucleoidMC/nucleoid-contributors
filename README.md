@@ -54,3 +54,11 @@ twitter = "AshhhleyyyB"
 If you're a member of the `NucleoidMC` GitHub organisation, you should have write permissions to this repository to update your card yourself. However, if you don't, either ask someone on Discord to invite you, or you just fork this repository and open a pull request with your changes.
 
 **Please only update your card, and not anyone else's without their permission :)**
+
+## Data access
+
+The generated HTML and JSON files are hosted at https://contributors.nucleoid.xyz to be consumed by other things.
+
+- `index.html` is a complete HTML page that can be opened in the browser and contains all styles embedded.
+- `widget.html` is an HTML fragment that can be loaded into another page and themed, which is used [in the main Nucleoid website](https://github.com/NucleoidMC/nucleoid.xyz/blob/master/static/contributors.js)
+- `data.json` contains all the data from the TOML files, including people and teams, serialised into one JSON file.

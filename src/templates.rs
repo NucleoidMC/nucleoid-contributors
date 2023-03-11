@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::collections::BTreeMap;
 
 use maud::{PreEscaped, DOCTYPE};
 
@@ -9,7 +9,7 @@ fn styles() -> PreEscaped<String> {
     PreEscaped(STYLE.replace("\n    ", "").replace("\n", ""))
 }
 
-pub fn test_page(people: &[Person], teams: &HashMap<String, Team>) -> PreEscaped<String> {
+pub fn test_page(people: &[Person], teams: &BTreeMap<String, Team>) -> PreEscaped<String> {
     maud::html! {
         (DOCTYPE)
         head {
@@ -45,7 +45,7 @@ pub fn test_page(people: &[Person], teams: &HashMap<String, Team>) -> PreEscaped
     }
 }
 
-pub fn widget(people: &[Person], teams: &HashMap<String, Team>) -> PreEscaped<String> {
+pub fn widget(people: &[Person], teams: &BTreeMap<String, Team>) -> PreEscaped<String> {
     maud::html! {
         .contributors {
             style { (styles()) }
@@ -56,7 +56,7 @@ pub fn widget(people: &[Person], teams: &HashMap<String, Team>) -> PreEscaped<St
     }
 }
 
-pub fn person(person: &Person, teams: &HashMap<String, Team>) -> PreEscaped<String> {
+pub fn person(person: &Person, teams: &BTreeMap<String, Team>) -> PreEscaped<String> {
     maud::html! {
         .person {
             img src=(person.avatar()) class="avatar";
@@ -121,7 +121,7 @@ pub fn person(person: &Person, teams: &HashMap<String, Team>) -> PreEscaped<Stri
     }
 }
 
-fn person_teams(person_teams: &[String], teams: &HashMap<String, Team>) -> PreEscaped<String> {
+fn person_teams(person_teams: &[String], teams: &BTreeMap<String, Team>) -> PreEscaped<String> {
     maud::html! {
         .teams {
             @for team_name in person_teams {
