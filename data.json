@@ -113,11 +113,16 @@
     },
     "ella": {
       "name": "ella",
+      "pronouns": "it/its",
       "groups": [
         "translations"
       ],
+      "bio": "ella",
+      "avatar": "https://openailabsprodscus.blob.core.windows.net/private/user-Slw6nAMDD7Qg8MfpVSKYzxMR/generations/generation-R7O9bHnwQC5lzSbZBH3kGgYs/image.webp?st=2023-03-13T20%3A38%3A51Z&se=2023-03-13T22%3A36%3A51Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/webp&skoid=15f0b47b-a152-4599-9e98-9cb4a58269f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-03-13T21%3A27%3A37Z&ske=2023-03-20T21%3A27%3A37Z&sks=b&skv=2021-08-06&sig=UVahfDqtObEwhETMEC4v5Rs1Dfc7VevOfx2qfhT6hTg%3D",
       "socials": {
-        "minecraft": "1228311667704193a92fc26a31a3455d"
+        "github": "Voxxin",
+        "minecraft": "1228311667704193a92fc26a31a3455d",
+        "website": "https://capes.me"
       }
     },
     "eterdelta": {
