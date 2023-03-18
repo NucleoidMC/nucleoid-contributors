@@ -213,11 +213,18 @@
     },
     "hugman": {
       "name": "Hugman",
+      "pronouns": "he/him",
       "groups": [
-        "code"
+        "code",
+        "building",
+        "translations"
       ],
+      "bio": "French Nintendo fan that tries to make pleasant experiences through Minecraft modding!",
+      "avatar": "https://pbs.twimg.com/profile_images/1591957363799515136/cDz3uDaF_400x400.png",
       "socials": {
-        "minecraft": "c789cee4c9fb4c1b8a58fa64dff0034f"
+        "github": "Hugman76",
+        "minecraft": "c789cee4c9fb4c1b8a58fa64dff0034f",
+        "twitter": "Hugman_76"
       }
     },
     "hydos": {
