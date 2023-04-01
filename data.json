@@ -254,6 +254,22 @@
         "minecraft": "3744c0a9fb8541b78066b78ca1dc4bc6"
       }
     },
+    "jerozgen": {
+      "name": "Jerozgen",
+      "pronouns": "he/him",
+      "groups": [
+        "code",
+        "translations"
+      ],
+      "socials": {
+        "github": "Jerozgen",
+        "discord": {
+          "id": "165678950628982784",
+          "display": "Jerozgen"
+        },
+        "minecraft": "d8eddfc1c37643df9e19b031e72bfa78"
+      }
+    },
     "komerish": {
       "name": "komerish",
       "groups": [
