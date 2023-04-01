@@ -1,0 +1,11 @@
+name = "Jerozgen"
+pronouns = "he/him"
+groups = [
+    "code",
+    "translations",
+]
+
+[socials]
+minecraft = "d8eddfc1c37643df9e19b031e72bfa78"
+github = "Jerozgen"
+discord = { id = "165678950628982784", display = "Jerozgen" }
