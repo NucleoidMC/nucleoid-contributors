@@ -1,6 +1,6 @@
-use std::{fs, path::Path, borrow::Cow, collections::{BTreeMap}};
+use std::{borrow::Cow, collections::BTreeMap, fs, path::Path};
 
-use color_eyre::{Result, eyre::eyre};
+use color_eyre::{eyre::eyre, Result};
 use serde::{Deserialize, Serialize};
 
 #[derive(Clone, Deserialize, Serialize)]
@@ -21,7 +21,10 @@ impl Person {
         if let Some(avatar) = &self.avatar {
             Cow::Borrowed(avatar)
         } else {
-            Cow::Owned(format!("https://api.nucleoid.xyz/skin/face/128/{uuid}", uuid = self.socials.minecraft))
+            Cow::Owned(format!(
+                "https://api.nucleoid.xyz/skin/face/128/{uuid}",
+                uuid = self.socials.minecraft
+            ))
         }
     }
 }
@@ -70,7 +73,13 @@ pub fn load_people() -> Result<BTreeMap<String, Person>> {
     for entry in fs::read_dir("data/people/")? {
         let entry = entry?;
         if entry.file_type()?.is_file() {
-            let name = entry.path().file_stem().unwrap().to_str().expect("contributor file name to be valid UTF-8").to_owned();
+            let name = entry
+                .path()
+                .file_stem()
+                .unwrap()
+                .to_str()
+                .expect("contributor file name to be valid UTF-8")
+                .to_owned();
             people.insert(name, load_person(&entry.path())?);
         }
     }
@@ -85,7 +94,11 @@ pub fn load_teams() -> Result<BTreeMap<String, Team>> {
         let entry = entry?;
         if entry.file_type()?.is_file() {
             let path = entry.path();
-            let name = path.file_stem().expect("file to have a name").to_string_lossy().to_string();
+            let name = path
+                .file_stem()
+                .expect("file to have a name")
+                .to_string_lossy()
+                .to_string();
             teams.insert(name, load_team(&path)?);
         }
     }

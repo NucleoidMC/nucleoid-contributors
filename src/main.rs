@@ -1,7 +1,13 @@
-use std::{fs::{self, File}, collections::HashMap};
+use std::{
+    collections::HashMap,
+    fs::{self, File},
+};
 
 use color_eyre::Result;
-use nucleoid_contributors::{models::{self, ContributorsData}, templates};
+use nucleoid_contributors::{
+    models::{self, ContributorsData},
+    templates,
+};
 
 fn main() -> Result<()> {
     let teams = models::load_teams()?;
@@ -24,19 +30,24 @@ fn main() -> Result<()> {
 
     {
         let mut f = File::create("build/data.json")?;
-        serde_json::to_writer_pretty(&mut f, &ContributorsData {
-            people: people.clone(),
-            teams: teams.clone(),
-        })?;
+        serde_json::to_writer_pretty(
+            &mut f,
+            &ContributorsData {
+                people: people.clone(),
+                teams: teams.clone(),
+            },
+        )?;
     }
 
     let mut people = people.into_values().collect::<Vec<_>>();
     people.sort_by_cached_key(|p| p.name.to_lowercase());
-    people.sort_by_cached_key(|p| p.groups.iter()
-        .filter_map(|t| teams.get(t))
-        .map(|t| -t.weight)
-        .min()
-    );
+    people.sort_by_cached_key(|p| {
+        p.groups
+            .iter()
+            .filter_map(|t| teams.get(t))
+            .map(|t| -t.weight)
+            .min()
+    });
 
     {
         let html = templates::test_page(&people, &teams);
