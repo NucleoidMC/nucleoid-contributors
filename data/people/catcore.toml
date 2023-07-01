@@ -1,7 +1,16 @@
 name = "Cat Core"
+
+pronouns = "he/they"
+
 groups = [
     "code",
 ]
 
+bio = "Contributor of Navigator and Translation systems and author of Dé À Coudre mini-game."
+
+avatar = "https://avatars.githubusercontent.com/u/34719527?v=4"
+
 [socials]
 minecraft = "5bb676efecee4258ae1f53e163839585"
+github = "thecatcore"
+discord = { id = "223864389256609792", display = "Cat Core"}
