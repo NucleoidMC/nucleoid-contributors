@@ -1,7 +1,13 @@
 name = "Trunky"
+pronouns = "he/they"
 groups = [
     "community",
 ]
+bio = "Streams occasionally."
 
 [socials]
 minecraft = "2f95ab87649a43e2bae871debf96b5b0"
+github = "trunkyredstone"
+discord = { id = "419789806114177024", display = "ImTrunky" }
+website = "https://romanolucchesi.com"
+twitter = "imtrunky"
