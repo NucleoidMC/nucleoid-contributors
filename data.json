@@ -459,6 +459,24 @@
         "minecraft": "9927b75a89d94ff78bac58aaed08911a"
       }
     },
+    "pufferfish": {
+      "name": "Pufferfish",
+      "pronouns": "he/him",
+      "groups": [
+        "code",
+        "building"
+      ],
+      "avatar": "https://puffish.net/logo.svg",
+      "socials": {
+        "github": "pufmat",
+        "discord": {
+          "id": "364827521163722752",
+          "display": "pufmat"
+        },
+        "minecraft": "d60cf2a123104ead971f77ae381ac571",
+        "website": "https://puffish.net"
+      }
+    },
     "qpcrummer": {
       "name": "qpcrummer",
       "groups": [
