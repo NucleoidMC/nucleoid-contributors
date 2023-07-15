@@ -1,0 +1,13 @@
+name = "Pufferfish"
+pronouns = "he/him"
+avatar = "https://puffish.net/logo.svg"
+groups = [
+    "code",
+    "building"
+]
+
+[socials]
+minecraft = "d60cf2a123104ead971f77ae381ac571"
+github = "pufmat"
+discord = { id = "364827521163722752", display = "pufmat" }
+website = "https://puffish.net"
