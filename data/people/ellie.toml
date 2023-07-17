@@ -1,0 +1,11 @@
+name = "Ellie"
+pronouns = "she/her"
+bio = "I like taters"
+groups = [
+    "translations"
+]
+
+[socials]
+minecraft = "7c92bb7e8d8d45f48c1e0126127464a7"
+github = "ellieisjelly"
+discord = { id = "723642065082253314", display = "ellie_is_jelly" }
