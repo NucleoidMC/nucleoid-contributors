@@ -57,15 +57,6 @@
         "minecraft": "dca7cb177f1349c89ab4a5267f8f53e5"
       }
     },
-    "capetaanal": {
-      "name": "capetaanal",
-      "groups": [
-        "translations"
-      ],
-      "socials": {
-        "minecraft": "7c92bb7e8d8d45f48c1e0126127464a7"
-      }
-    },
     "catcore": {
       "name": "Cat Core",
       "pronouns": "he/they",
@@ -131,6 +122,22 @@
         "github": "Voxxin",
         "minecraft": "1228311667704193a92fc26a31a3455d",
         "website": "https://capes.me"
+      }
+    },
+    "ellie": {
+      "name": "Ellie",
+      "pronouns": "she/her",
+      "groups": [
+        "translations"
+      ],
+      "bio": "I like taters",
+      "socials": {
+        "github": "ellieisjelly",
+        "discord": {
+          "id": "723642065082253314",
+          "display": "ellie_is_jelly"
+        },
+        "minecraft": "7c92bb7e8d8d45f48c1e0126127464a7"
       }
     },
     "eterdelta": {
