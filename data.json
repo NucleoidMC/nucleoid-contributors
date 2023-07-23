@@ -711,12 +711,21 @@
       }
     },
     "wes": {
-      "name": "Wes",
+      "name": "WesleyH",
+      "pronouns": "he/him",
       "groups": [
         "building"
       ],
+      "bio": "Chief of Nucleoid tomfoolery",
       "socials": {
-        "minecraft": "bfa1f77fc2674985ab928692a87fab7f"
+        "github": "whoy51",
+        "discord": {
+          "id": "710704249851609099",
+          "display": "Wes"
+        },
+        "minecraft": "bfa1f77fc2674985ab928692a87fab7f",
+        "website": "wesley.today",
+        "twitter": "wesleyhoydc"
       }
     },
     "williambl": {
