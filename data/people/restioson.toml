@@ -7,5 +7,11 @@ groups = [
     "building",
 ]
 
+pronouns = "he/him"
+
+bio = "Help, I'm trapped inside a website!"
+
 [socials]
 minecraft = "89409ca75d94461890060f264b7dc804"
+github = "Restioson"
+discord = { id = "160780685190103040", display = "Restioson" }
