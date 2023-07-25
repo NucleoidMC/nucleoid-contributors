@@ -541,6 +541,7 @@
     },
     "restioson": {
       "name": "Restioson",
+      "pronouns": "he/him",
       "groups": [
         "administrator",
         "core",
@@ -548,7 +549,13 @@
         "code",
         "building"
       ],
+      "bio": "Help, I'm trapped inside a website!",
       "socials": {
+        "github": "Restioson",
+        "discord": {
+          "id": "160780685190103040",
+          "display": "Restioson"
+        },
         "minecraft": "89409ca75d94461890060f264b7dc804"
       }
     },
