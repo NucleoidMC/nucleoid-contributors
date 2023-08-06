@@ -2,7 +2,8 @@ name = "Ellie"
 pronouns = "she/her"
 bio = "I like taters"
 groups = [
-    "translations"
+    "translations",
+    "code",
 ]
 
 [socials]
