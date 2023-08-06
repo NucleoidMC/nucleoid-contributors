@@ -128,7 +128,8 @@
       "name": "Ellie",
       "pronouns": "she/her",
       "groups": [
-        "translations"
+        "translations",
+        "code"
       ],
       "bio": "I like taters",
       "socials": {
