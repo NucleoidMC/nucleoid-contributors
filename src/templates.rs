@@ -59,7 +59,7 @@ pub fn widget(people: &[Person], teams: &BTreeMap<String, Team>) -> PreEscaped<S
 pub fn person(person: &Person, teams: &BTreeMap<String, Team>) -> PreEscaped<String> {
     maud::html! {
         .person {
-            img src=(person.avatar()) class="avatar";
+            img src=(person.avatar()) class="avatar" loading="lazy";
 
             h3 {
                 (person.name)
