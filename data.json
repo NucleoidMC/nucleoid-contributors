@@ -533,11 +533,15 @@
     },
     "redstoneparadox": {
       "name": "RedstoneParadox",
+      "pronouns": "he/him",
       "groups": [
         "code"
       ],
+      "bio": "A programmer from a place that hopefully exists.",
       "socials": {
-        "minecraft": "f2d4f5123ee144288332fd84680bc920"
+        "github": "RedstoneParadox",
+        "minecraft": "f2d4f5123ee144288332fd84680bc920",
+        "website": "https://redstoneparadox.xyz"
       }
     },
     "restioson": {
