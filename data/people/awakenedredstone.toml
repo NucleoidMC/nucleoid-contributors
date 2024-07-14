@@ -1,0 +1,7 @@
+name = "Awakened Redstone"
+groups = [
+    "code",
+]
+
+[socials]
+minecraft = "2e7c234994ec48628b68344d049840d2"
