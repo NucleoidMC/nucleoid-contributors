@@ -27,7 +27,7 @@
           "display": "Ash."
         },
         "minecraft": "5ad3ab57b55646359ba99a9a0568965a",
-        "fediverse": "https://fedi.ashhhleyyy.dev/ash",
+        "fediverse": "https://fedi.shorks.gay/@ash",
         "website": "https://ashhhleyyy.dev",
         "twitter": "AshhhleyyyB"
       }
@@ -39,6 +39,15 @@
       ],
       "socials": {
         "minecraft": "13c7ac0aeb404894b48cf29a10c80bd3"
+      }
+    },
+    "awakenedredstone": {
+      "name": "Awakened Redstone",
+      "groups": [
+        "code"
+      ],
+      "socials": {
+        "minecraft": "2e7c234994ec48628b68344d049840d2"
       }
     },
     "bazels": {
