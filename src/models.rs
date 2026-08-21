@@ -17,7 +17,7 @@ pub struct Person {
 }
 
 impl Person {
-    pub fn avatar(&self) -> Cow<str> {
+    pub fn avatar(&self) -> Cow<'_, str> {
         if let Some(avatar) = &self.avatar {
             Cow::Borrowed(avatar)
         } else {
