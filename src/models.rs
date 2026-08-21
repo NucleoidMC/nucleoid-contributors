@@ -42,6 +42,8 @@ pub struct Socials {
     pub website: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub twitter: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub bluesky: Option<String>,
 }
 
 #[derive(Clone, Deserialize, Serialize)]
