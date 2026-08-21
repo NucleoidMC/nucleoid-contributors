@@ -8,7 +8,8 @@ groups = [
     "building",
 ]
 
-avatar = "https://i.imgur.com/y7LDVX9.png"
+# broken in the UK
+# avatar = "https://i.imgur.com/y7LDVX9.png"
 bio = "(Mis)managing the community since 2021!"
 
 [socials]

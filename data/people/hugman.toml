@@ -6,7 +6,8 @@ groups = [
     "translations"
 ]
 bio = "French Nintendo fan that tries to make pleasant experiences through Minecraft modding!"
-avatar = "https://pbs.twimg.com/profile_images/1591957363799515136/cDz3uDaF_400x400.png"
+# broken link
+# avatar = "https://pbs.twimg.com/profile_images/1591957363799515136/cDz3uDaF_400x400.png"
 
 [socials]
 github = "Hugman76"
