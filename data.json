@@ -137,6 +137,7 @@
       "name": "Ellie",
       "pronouns": "she/her",
       "groups": [
+        "moderator",
         "translations",
         "code"
       ],
